@@ -106,10 +106,10 @@ export const Navbar = () => {
                 </div>
               </div>
             </div>
-            <span className="nav-item nav-link text-primary text-blue font-mono">
+            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <span className="  nav-item nav-link text-primary text-blue font-mono">
               {user?.name}
             </span>
-            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               <div className="relative ml-3">
                 <div>
                   <button
