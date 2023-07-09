@@ -1,0 +1,196 @@
+
+  input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 32, 158);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: red;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+    background-color: brown;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    align-content: center;
+    align-items: center;
+    background-color: white;
+   
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    height: 0%;  
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  
+  .card p {
+    background-color: white;
+    flex: 1;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  footer {
+    background-color: #646461;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .my-card {
+    min-width: 260px;
+    max-width: 450px;
+    max-height: 50vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    display: inline-block;
+}
+ 
+.my-card img {
+    transition: all 0.15s linear;
+    position: relative;
+    top: 15%;
+   
+    filter: brightness(70%);
+   
+}
+ 
+.my-card .profile-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 15px 20px;
+    transition: all 0.15s linear;
+}
+ 
+.my-card .profile-position {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.596);
+    left: 30px;
+    top: 60px;
+    transition: all 0.15s linear;
+}
+ 
+.my-card .profile-overview {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0));
+    color: #FFF;
+    padding: 50px 0px 40px 0px;
+    transition: all 0.15s linear;
+}
+ 
+.my-card .profile-overview h3 {
+    font-weight: bold;
+    font-size: large;
+    padding-left: 25px;
+}
+ 
+.my-card .profile-overview p {
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+ 
+.my-card:hover .profile-name {
+    padding-left: 25px;
+}
+ 
+.my-card:hover .profile-position {
+    left: 40px;
+}
+ 
+.my-card:hover .profile-overview {
+    padding-bottom: 25px;
+}
+ 
+.my-card img:hover {
+    transform: scale(1.01);
+}
+
+body {
+  background-color:  #1c200e48;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
